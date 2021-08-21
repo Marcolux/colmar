@@ -2,14 +2,23 @@ html{
     font-family: 'Roboto', sans-serif;
     color: rgb(105, 100, 100);
 }
+
+
+
+
+
+
+
+
+
 header{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.956);
     position: fixed;
     top: 0px;
     left: 0%;
     display: inline-flex;
     width: 100%;
-    height: 64 px;
+    height: 64px;
     align-items:center;
     justify-content: flex-end;
 }
@@ -50,4 +59,99 @@ nav ul li{
 
 body{
     background-color: rgb(226, 224, 224);
+}
+
+
+
+
+
+
+
+
+#learn{
+    display: inline-flex;
+    margin-top: 66px;
+    padding: 32px 24px 32px 24px;
+}
+
+#learn img{
+ width: 60%;
+ margin-right: 24px;
+}
+
+#learn #banner{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 2.5rem;
+    width: 40%;
+}
+
+#banner h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#banner p{
+    text-align: center;
+    color:white;
+    background-color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+#informations{
+    display: inline-flex;
+    padding-left: 1.5rem;
+    background-color: whitesmoke;
+}
+#latin{
+    padding-right: 24px;
+    padding-top:32px;
+    width:60%;
+}
+#latin img{
+    width: 100%;
+}
+#informationsss{
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px rgb(228, 227, 227) solid;
+}
+.INFOS{
+    display: inline-flex;
+    align-items: center;
+    
+}
+#informationsss img{
+    width: 35%;
+    height: auto;
+    padding: 16px 0 16px 16px;
+
+}
+.info{
+    width: 65%;
+    padding-left: 24px;
+}
+.info h1{
+    font-weight:500;
+    font-size: 32px;
+}
+.info h2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.info h3{
+    color:rgb(0, 195, 255);
+    font-size: 1rem;
+    font-weight: normal;
 }

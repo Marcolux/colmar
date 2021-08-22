@@ -1,6 +1,19 @@
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sarabun', sans-serif;
     color: rgb(83, 79, 79);
+}
+
+p,li{
+    font-size: 17px;
+}
+
+p,h1,h2,h3{
+    letter-spacing: .3px;
+}
+
+h2{
+    font-size: 26px;
+
 }
 
 
@@ -55,6 +68,10 @@ nav ul{
 }
 nav ul li{
     margin-left: 16px;
+}
+a{
+    text-decoration: none;
+    color: rgb(83, 79, 79);
 }
 
 body{
@@ -230,7 +247,7 @@ body{
  
 }
 
-#sl{
+.sl{
 text-align: center;
 box-sizing: content-box;
 margin-bottom: 32px;
@@ -280,3 +297,88 @@ margin-top: 0px;
 }
 
 
+
+
+
+
+
+
+
+#Thesis{
+    padding: 32px 16px 32px 24px ;
+    background-color:white;
+    box-sizing: border-box;
+    border-bottom: 2px gainsboro solid;
+}
+#companies{
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+#comp{
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 24px;
+    width: 60%;
+}
+
+
+
+#companies2{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40%;
+    box-sizing: border-box;
+}
+.picbott{
+    display: inline-flex;
+    padding: 16px 16px 16px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 2px;
+}
+
+.picbott img{
+    width: 35%;
+    height: auto;
+}
+
+.picbottbx{
+     width: 65%;
+     padding-left: 16px;
+}
+
+#grey{
+    background-color: gainsboro;
+}
+
+
+
+footer{
+    background-color: ghostwhite;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    
+}
+
+footer p{
+    position: absolute;
+    left: 24px;
+}
+
+footer ul{
+     display: inline-flex;
+     list-style: none;
+}
+
+footer ul li{
+    padding-left: 16px;
+    margin-right: 16px;
+}

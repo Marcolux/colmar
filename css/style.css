@@ -70,6 +70,7 @@ body{
 
 
 #learn{
+    
     display: inline-flex;
     margin-top: 66px;
     padding: 32px 24px 32px 24px;
@@ -109,6 +110,7 @@ body{
 
 
 #informations{
+    
     display: inline-flex;  
     margin-left: 0px; 
     padding-left: 1.5rem;
@@ -216,3 +218,65 @@ body{
     border-bottom: 2px gainsboro solid ;
     margin-top: 3px;
 }
+
+
+
+
+
+#StartLearning { 
+    
+    padding: 32px 40px 32px 72px;
+    justify-content: stretch;
+ 
+}
+
+#sl{
+text-align: center;
+box-sizing: content-box;
+margin-bottom: 32px;
+margin-top: 0px;
+}
+
+#sixpacks{
+    display: inline-flex;
+    justify-content: center;
+    flex-flow:wrap;
+   
+
+}
+.packs{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-right: 32px;
+  padding-bottom: 32px;
+
+}
+
+
+.packs img{
+    height: auto;
+}
+
+.smpk{
+    text-align: left;
+    background-color: white;
+    height: 100%;
+    padding: 16px 0px 24px 16px;
+}
+
+.smpk h1{
+    font-weight: 600;
+    font-size: 36px;
+    
+}
+.smpk h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.smpk h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+

@@ -60,8 +60,8 @@ header{
 }
 nav{
     margin-right: 24px;
-    height: fit-content;
 }
+
 nav ul{
     list-style: none;
     display: inline-flex;
@@ -69,10 +69,51 @@ nav ul{
 nav ul li{
     margin-left: 16px;
 }
+
+nav ul i.fa, ul img{
+    display: none;
+}
+@media only screen and (max-width: 700px) { 
+    #logo h1{
+        display: none;
+    }
+
+@media only screen and (max-width: 480px) { 
+    nav ul i.fa{
+        display:contents;
+        color: black;
+    }
+
+    nav ul li, #logo h1 {
+        display: none;
+    }
+    
+    nav, nav ul{
+        width: 100%;  
+    }
+    header {
+        justify-content: space-evenly; 
+        background-color: white; 
+    }
+    #logo{
+        position: relative;
+
+    }
+    nav ul{
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+}
+
+
 a{
     text-decoration: none;
     color: rgb(83, 79, 79);
 }
+
+
+
 
 body{
     background-color: rgb(226, 224, 224);
@@ -142,6 +183,7 @@ body{
     padding-bottom: 32px;
     margin-top: 2px;
     width:60%;
+    height: 100%;
     box-sizing: border-box;
 }
 #latin div{
@@ -151,7 +193,6 @@ body{
 }
 #latin img{
     width: 100%;
-    height: 100%;
     box-sizing: border-box;
 }
 
@@ -258,8 +299,6 @@ margin-top: 0px;
     display: inline-flex;
     justify-content: center;
     flex-flow:wrap;
-   
-
 }
 .packs{
   display: inline-flex;

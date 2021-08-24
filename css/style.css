@@ -400,7 +400,7 @@ footer ul li{
 
 
 
-@media only screen and (max-width: 770px) { 
+@media only screen and (max-width: 800px) { 
    h1{
        font-size: 40px;
        font-weight: 700;
@@ -465,6 +465,8 @@ footer ul li{
      height: auto;
     }
 }
+
+
 @media only screen and (max-width: 480px) { 
    
    

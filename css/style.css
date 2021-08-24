@@ -70,47 +70,20 @@ nav ul li{
     margin-left: 16px;
 }
 
-nav ul i.fa, ul img{
+#mobile{
     display: none;
 }
-@media only screen and (max-width: 700px) { 
-    #logo h1{
-        display: none;
-    }
-
-@media only screen and (max-width: 480px) { 
-    nav ul i.fa{
-        display:contents;
-        color: black;
-    }
-
-    nav ul li, #logo h1 {
-        display: none;
-    }
-    
-    nav, nav ul{
-        width: 100%;  
-    }
-    header {
-        justify-content: space-evenly; 
-        background-color: white; 
-    }
-    #logo{
-        position: relative;
-
-    }
-    nav ul{
-        justify-content: space-around;
-        padding: 0;
-    }
-    
-}
-
 
 a{
     text-decoration: none;
     color: rgb(83, 79, 79);
 }
+
+
+
+
+
+
 
 
 
@@ -140,7 +113,7 @@ body{
  justify-content: stretch;
 }
 
-#learn #banner{
+#banner{
     display: inline-flex;
     flex-direction: column;
     justify-content:center;
@@ -420,4 +393,107 @@ footer ul{
 footer ul li{
     padding-left: 16px;
     margin-right: 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) { 
+   h1{
+       font-size: 40px;
+       font-weight: 700;
+   }
+   
+   
+    #logo h1{
+        display: none;
+    }
+    #learn{
+        flex-direction: column;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       }
+    #learn img{
+           width: 100%;
+    }
+    #banner{
+        padding:32px 16px 32px 16px;
+        width: 100%;
+    }
+
+
+
+
+    #latin{
+        display: none;
+    }
+
+
+    #informationsss{
+        width: 100%;
+        padding:0px;
+    
+    }
+    .info{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .info h3{
+        text-align: center;
+    }
+    .INFOS{
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        height:fit-content;
+    }
+    #informations {
+        width: 100%;
+        padding: 0px;
+        
+    }
+    #informationsss img{
+     box-sizing: border-box;
+     width: 100%;
+     padding-top: 16px 0px 0px 0px;
+     height: auto;
+    }
+}
+@media only screen and (max-width: 480px) { 
+   
+   
+   
+    #mobile{
+        display:inline-flex;
+        color: black;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #fscreen, #logo h1 {
+        display: none;
+    }
+    
+    nav {
+        width: 100%;  
+    }
+    header {
+        justify-content: space-evenly; 
+        background-color: white; 
+    }
+    #logo{
+        position: relative;
+
+    }   
+    #banner{
+        padding:32px 16px 32px 16px;
+        width: 100%;
+    }
+
+    
+        
 }

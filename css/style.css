@@ -258,6 +258,7 @@ body{
     
     padding: 32px 40px 32px 72px;
     justify-content: stretch;
+    box-sizing: border-box;
  
 }
 
@@ -420,8 +421,9 @@ footer ul li{
            width: 100%;
     }
     #banner{
-        padding:32px 16px 32px 16px;
+        padding:32px 0px 32px 16px;
         width: 100%;
+        box-sizing: border-box;
     }
 
 
@@ -438,18 +440,31 @@ footer ul li{
     
     }
     .info{
+        display: inline-flex;
+        flex-direction: column;
         width: 100%;
         padding: 0;
         align-items: center;
     }
+    .info h2{
+        text-align: center;
+    }
     .info h3{
         text-align: center;
     }
+
+    #OurGuest{
+        background-color: white;
+        border-top: 2px gainsboro solid;
+        border-bottom:2px gainsboro solid;
+    }
+
+
     .INFOS{
         flex-direction: column;
         padding-left: 16px;
         padding-right: 16px;
-        height:fit-content;
+        justify-content: center;
     }
 
     #informations {
@@ -459,17 +474,49 @@ footer ul li{
     }
 
     #informationsss img{
-     box-sizing: border-box;
      width: 100%;
-     padding-top: 16px 0px 0px 0px;
-     height: auto;
+     padding: 16px 0px 0px 0px;
     }
+    #StartLearning{
+        
+    padding: 32px 40px 32px 32px;}
+
+    #Thesis{
+     padding: 32px 0px 24px 0px;
+    }
+
+    #companies2{
+        display: none;
+    }
+    #companies{
+        width: 100%;
+    }
+    #comp{
+        width: 100%;
+        padding: 0px;
+    }
+    #comp h1, #comp p{
+        display: none;
+    }
+    footer p {
+        position: relative;
+    }
+    footer {
+        
+        justify-content: center;
+    }
+    footer ul{
+        display: none;
+    }
+
 }
 
 
 @media only screen and (max-width: 480px) { 
    
-   
+   a{
+       color: rgb(22, 21, 21);
+   }
    
     #mobile{
         display:inline-flex;
@@ -499,72 +546,35 @@ footer ul li{
         font-size: 40px;
         font-weight: 700;
     }
-    
-    
-    #logo h1{
-         display: none;
-    }
+    .packs img, .smpk h2, .smpk h3{
+     display: none;
+    }  
 
-    #learn{
-         flex-direction: column;
-         padding: 0px;
-         box-sizing: border-box;
-         
+    #StartLearning{
+        background-color: white;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
-
-    #learn img{
-            width: 100%;
+    #sixpacks{
+        padding: 0px;
+        background-color: ghostwhite;
     }
-    
-    #banner{
-         padding:32px 16px 32px 16px;
-         width: 100%;
+    .packs{
+        width: 100%;
+        background-color: gainsboro;
+        margin-top: 8px;
+        padding:16px 16px 24px 16px ;
     }
- 
- 
- 
- 
-   #latin{
-         display: none;
+    .smpk{
+        background-color: gainsboro;
+        padding:0px;
     }
- 
- 
-    #informationsss{
-         width: 100%;
-         padding:0px;
-     
+    .smpk h1{
+        font-size: 28px;
+        margin: 0px;
+        text-align: center;
     }
-
-    .info{
-         width: 100%;
-         padding: 0;
-         align-items: center;
-    }
-    
-    .info h3{
-         text-align: center;
-    }
-
-    .INFOS{
-         flex-direction: column;
-         padding-left: 16px;
-         padding-right: 16px;
-         height:fit-content;
-    }
- 
-    #informations {
-         width: 100%;
-         padding: 0px;
-         
-    }
- 
-    #informationsss img{
-      box-sizing: border-box;
-      width: 100%;
-      padding-top: 16px 0px 0px 0px;
-      height: auto;
-    }
-
-    
-        
 }
